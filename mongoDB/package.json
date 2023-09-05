@@ -1,7 +1,7 @@
 {
-  "name": "carslist-cli",
+  "name": "car-cli",
   "version": "1.0.0",
-  "description": "Cars List CLI",
+  "description": "Car CLI",
   "main": "index.js",
   "type": "module",
   "preferGlobal": true,
