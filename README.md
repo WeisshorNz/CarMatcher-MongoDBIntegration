@@ -1,10 +1,11 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
-
-[![Contributors][contributors-shield]][contributors-url] <br />
-[![GitHub - Luis Rodríguez][Github.logo]][luis-github-url] - Luis Rodríguez
+<div align="center">
+[![Contributors][contributors-shield]][contributors-url] 
+[![GitHub - Luis Rodríguez][Github.logo]][luis-github-url] - Luis Rodríguez 
 [![GitHub - Kelsie Smith][Github.logo]][kelsie-github-url] - Kelsie Smith
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
