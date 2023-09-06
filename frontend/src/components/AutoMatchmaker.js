@@ -10,8 +10,9 @@ function AutoMatchmaker() {
   const [recognitionResult, setRecognitionResult] = useState("");
   const [matchingCars, setMatchingCars] = useState([]);
 
-  // const apiUrl = "http://localhost:4000/api";
-  const apiUrl = "https://m3-prediction-api.azurewebsites.net/api";
+  const apiUrl = "http://localhost:4000/api";
+  // const apiUrl = "https://m3-prediction-api.azurewebsites.net/api";
+
   const headers = {
     "Content-Type": "image/jpeg",
   };
@@ -29,7 +30,7 @@ function AutoMatchmaker() {
       reader.onload = async () => {
         try {
           const response = await axios.post(apiUrl, reader.result, { headers });
-
+    
           const result = response.data;
 
           if (result && result.length >= 2) {
@@ -44,7 +45,7 @@ function AutoMatchmaker() {
                 car.carType.toLowerCase() === firstTagName.toLowerCase() &&
                 car.color.toLowerCase() === secondTagName.toLowerCase()
             );
-
+          
             setMatchingCars(matchingCars);
 
             setRecognitionResult(
@@ -66,7 +67,7 @@ function AutoMatchmaker() {
       console.error("Error uploading and recognising the image:", error);
     }
   };
-
+       
   return (
     <div className="autoMatchmaker-container">
       <div className="heading-container">
