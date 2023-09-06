@@ -103,7 +103,7 @@ function AutoMatchmaker() {
               className="uploaded-image"
             />
           )}
-          <br /> <br /> <br />
+          <br />
           <button onClick={searchMatchingCars}>Show Matching Cars</button>{" "}
         </div>
       </div>
