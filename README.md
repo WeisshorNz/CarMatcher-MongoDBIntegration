@@ -2,15 +2,15 @@
 
 <!-- PROJECT SHIELDS -->
 
-[![Contributors][contributors-shield]][contributors-url]
-Luis Rodríguez - [![GitHub - Luis Rodríguez][Github.logo]][luis-github-url]
-Kelsie Smith - [![GitHub - Kelsie Smith][Github.logo]][kelsie-github-url]
+[![Contributors][contributors-shield]][contributors-url] |
+[![GitHub - Luis Rodríguez][Github.logo]][luis-github-url] - Luis Rodríguez |  
+[![GitHub - Kelsie Smith][Github.logo]][kelsie-github-url] - Kelsie Smith
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/WeisshorNz/L5-Mission4">
-  <img src="../L5-Mission4/frontend/src/images/turnersLogo.png" alt="Banner" width="800" height="150">
+  <img src="./frontend/src/images/carAppBanner.png" alt="Banner" width="800" height="150">
   </a>
 
 <h3 align="center">Integrating MongoDB</h3>
@@ -49,7 +49,7 @@ Kelsie Smith - [![GitHub - Kelsie Smith][Github.logo]][kelsie-github-url]
 
 ## About The Project
 
-<img src="../L5-Mission4/frontend/src/images/pageImg.png" alt="Logo" width="800" height="1000">
+<img src="./frontend/src/images/pageImg.png" alt="Logo" width="800" height="800">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
