@@ -1,0 +1,702 @@
+[{
+  "_id": {
+    "$oid": "64f7aeb96f0cbbe41c967697"
+  },
+  "body": "Hatchback",
+  "make": "Holden",
+  "model": "Astra R",
+  "color": "Black",
+  "year": 2018,
+  "price": 16090,
+  "image": "https://content.tgstatic.co.nz/photos/good/2018-holden-astra-23643140_17156754.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7b0b4659508ff2dfec9eb"
+  },
+  "body": "Hatchback",
+  "make": "Ford",
+  "model": "Fiesta Trend",
+  "color": "Black",
+  "year": 2015,
+  "price": 10820,
+  "image": "https://content.tgstatic.co.nz/photos/good/2015-ford-fiesta-23626284_17017553.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7b100ca45c7bbc8f6431e"
+  },
+  "body": "Hatchback",
+  "make": "Nissan",
+  "model": "Note E-Power",
+  "color": "Black",
+  "year": 2018,
+  "price": 15400,
+  "image": "https://content.tgstatic.co.nz/photos/good/2018-nissan-note-23541839_17046327.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7b1506758a7c7ce31d714"
+  },
+  "body": "Hatchback",
+  "make": "Mazda",
+  "model": "3 SP25",
+  "color": "Black",
+  "year": 2015,
+  "price": 19095,
+  "image": "https://content.tgstatic.co.nz/photos/good/2015-mazda-mazda3-23609595_17067569.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7b195a4e59d57468858fb"
+  },
+  "body": "Hatchback",
+  "make": "Honda",
+  "model": "Jazz RS",
+  "color": "Black",
+  "year": 2014,
+  "price": 10690,
+  "image": "https://content.tgstatic.co.nz/photos/good/2014-honda-jazz-23851299_17362197.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7b21cbc75b648a1c71c6d"
+  },
+  "body": "Hatchback",
+  "make": "Lexus",
+  "model": "CT200H",
+  "color": "Black",
+  "year": 2013,
+  "price": 19700,
+  "image": "https://content.tgstatic.co.nz/photos/good/2013-lexus-ct200h-23590342_17076412.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7b2c386673f9e110d494f"
+  },
+  "body": "Hatchback",
+  "make": "BMW",
+  "model": "116l",
+  "color": "Red",
+  "year": 2015,
+  "price": 12039,
+  "image": "https://content.tgstatic.co.nz/photos/good/2015-bmw-116i-23644647_17001529.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7b303f72656ba448203e7"
+  },
+  "body": "Hatchback",
+  "make": "Suzuki",
+  "model": "SX4",
+  "color": "Red",
+  "year": 2012,
+  "price": 13695,
+  "image": "https://content.tgstatic.co.nz/photos/good/2012-suzuki-sx4-23802865_17218693.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7b336fac9d614101fba5e"
+  },
+  "body": "Hatchback",
+  "make": "Toyota",
+  "model": "Aqua",
+  "color": "Red",
+  "year": 2017,
+  "price": 17700,
+  "image": "https://content.tgstatic.co.nz/photos/good/2017-toyota-aqua-23534400_17101213.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7b377a6aa54c6cd05ca2f"
+  },
+  "body": "Hatchback",
+  "make": "Toyota",
+  "model": "Prius",
+  "color": "Red",
+  "year": 2015,
+  "price": 17950,
+  "image": "https://content.tgstatic.co.nz/photos/good/2015-toyota-prius-23518118_16881772.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7b3cb5ba3815e07800ead"
+  },
+  "body": "Hatchback",
+  "make": "Nissan",
+  "model": "Juke",
+  "color": "Red",
+  "year": 2011,
+  "price": 14390,
+  "image": "https://content.tgstatic.co.nz/photos/good/2011-nissan-juke-23206482_17197813.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7b401367fbe0d58c5e57d"
+  },
+  "body": "Hatchback",
+  "make": "Ford",
+  "model": "Focus Sport",
+  "color": "Red",
+  "year": 2017,
+  "price": 16680,
+  "image": "https://content.tgstatic.co.nz/photos/good/2017-ford-focus-23638075_17026818.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7b458463ae8f47cd7926a"
+  },
+  "body": "Hatchback",
+  "make": "Toyota",
+  "model": "Corolla GX",
+  "color": "White",
+  "year": 2012,
+  "price": 11985,
+  "image": "https://content.tgstatic.co.nz/photos/good/2012-toyota-corolla-23774046_17093698.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7b48c41c610a28c36019f"
+  },
+  "body": "Hatchback",
+  "make": "Toyota",
+  "model": "Yaris",
+  "color": "White",
+  "year": 2021,
+  "price": 19480,
+  "image": "https://content.tgstatic.co.nz/photos/good/2021-toyota-yaris-23528646_16843107.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7b50f7ebeca0586f20bf0"
+  },
+  "body": "Hatchback",
+  "make": "Subaru",
+  "model": "XV AWD",
+  "color": "White",
+  "year": 2013,
+  "price": 17890,
+  "image": "https://content.tgstatic.co.nz/photos/good/2013-subaru-xv-23625035_16961936.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7be82d1b3817be5e72d25"
+  },
+  "body": "Hatchback",
+  "make": "Hyundai",
+  "model": "Ioniq Hybrid",
+  "color": "White",
+  "year": 2018,
+  "price": 19990,
+  "image": "https://content.tgstatic.co.nz/photos/good/2018-hyundai-ioniq-23841945_17327053.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7bec7597148c58188ce2c"
+  },
+  "body": "Hatchback",
+  "make": "Toyota",
+  "model": "Prius",
+  "color": "White",
+  "year": 2012,
+  "price": 16700,
+  "image": "https://content.tgstatic.co.nz/photos/good/2012-toyota-prius-23590390_17081800.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7bef86abf04d0344cc07b"
+  },
+  "body": "Hatchback",
+  "make": "Toyota",
+  "model": "Yaris GX",
+  "color": "White",
+  "year": 2018,
+  "price": 16500,
+  "image": "https://content.tgstatic.co.nz/photos/good/2018-toyota-yaris-22994777_17494279.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7bf786bce4352fe662db7"
+  },
+  "body": "Hatchback",
+  "make": "Nissan",
+  "model": "Note E-Power",
+  "color": "Blue",
+  "year": 2018,
+  "price": 14400,
+  "image": "https://content.tgstatic.co.nz/photos/good/2018-nissan-note-23541825_17056160.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7bfa3174c705d5af373f5"
+  },
+  "body": "Hatchback",
+  "make": "Toyota",
+  "model": "Aqua",
+  "color": "Blue",
+  "year": 2014,
+  "price": 12950,
+  "image": "https://content.tgstatic.co.nz/photos/good/2014-toyota-aqua-23518253_16843389.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7bfe81c0bd0ef24d2ea41"
+  },
+  "body": "Hatchback",
+  "make": "Honda",
+  "model": "FIT Hybrid",
+  "color": "Blue",
+  "year": 2014,
+  "price": 12700,
+  "image": "https://content.tgstatic.co.nz/photos/good/2013-honda-fit-23442487_16848338.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c031490c1ad2863219c2"
+  },
+  "body": "Hatchback",
+  "make": "Toyota",
+  "model": "Vitz",
+  "color": "Blue",
+  "year": 2014,
+  "price": 10990,
+  "image": "https://content.tgstatic.co.nz/photos/good/2014-toyota-vitz-23542064_17016655.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c0635bba83077e61393f"
+  },
+  "body": "Hatchback",
+  "make": "Toyota",
+  "model": "Aqua",
+  "color": "Blue",
+  "year": 2012,
+  "price": 13740,
+  "image": "https://content.tgstatic.co.nz/photos/good/2012-toyota-aqua-23495979_17016134.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c0c591e799ec92c77626"
+  },
+  "body": "Hatchback",
+  "make": "Suzuki",
+  "model": "Swift",
+  "color": "Blue",
+  "year": 2013,
+  "price": 12285,
+  "image": "https://content.tgstatic.co.nz/photos/good/2013-suzuki-swift-23770644_17080182.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c166decc198b0f54db6b"
+  },
+  "body": "Pickup Truck",
+  "make": "Holden",
+  "model": "Colorado",
+  "color": "Black",
+  "year": 2014,
+  "price": 18090,
+  "image": "https://content.tgstatic.co.nz/photos/good/2014-holden-colorado-23773441_17204295.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c19bc1d00c5e0d3bdd20"
+  },
+  "body": "Pickup Truck",
+  "make": "Nissan",
+  "model": "Navara",
+  "color": "Black",
+  "year": 2015,
+  "price": 28795,
+  "image": "https://content.tgstatic.co.nz/photos/good/2015-nissan-navara-22731922_17067150.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c1f38c17c1ac7e5be6f9"
+  },
+  "body": "Pickup Truck",
+  "make": "Holden",
+  "model": "Colorado LT DC PU",
+  "color": "Black",
+  "year": 2019,
+  "price": 27958,
+  "image": "https://content.tgstatic.co.nz/photos/good/2019-holden-colorado-23766819_17201451.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c235ceebcd47c74544a5"
+  },
+  "body": "Pickup Truck",
+  "make": "Holden",
+  "model": "Colorado",
+  "color": "Black",
+  "year": 2017,
+  "price": 23990,
+  "image": "https://content.tgstatic.co.nz/photos/good/2017-holden-colorado-21322519_16950317.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c26bfa55792a00665b15"
+  },
+  "body": "Pickup Truck",
+  "make": "Nissan",
+  "model": "Navara ST-X",
+  "color": "Black",
+  "year": 2020,
+  "price": 45060,
+  "image": "https://content.tgstatic.co.nz/photos/good/2020-nissan-navara-22833077_17286405.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c2b1518a3cbcdd1d1899"
+  },
+  "body": "Pickup Truck",
+  "make": "Great Wall",
+  "model": "V-Series",
+  "color": "Black",
+  "year": 2014,
+  "price": 12990,
+  "image": "https://content.tgstatic.co.nz/photos/good/2014-great-wall-v-series-23830780_17445362.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c3854ec1ce9c4b3fceab"
+  },
+  "body": "Pickup Truck",
+  "make": "Nissan",
+  "model": "Navara",
+  "color": "White",
+  "year": 2008,
+  "price": 12890,
+  "image": "https://content.tgstatic.co.nz/photos/good/2008-nissan-navara-23590031_16986630.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c3c6a101eab263e8aee7"
+  },
+  "body": "Pickup Truck",
+  "make": "Nissan",
+  "model": "Navara",
+  "color": "White",
+  "year": 2013,
+  "price": 12585,
+  "image": "https://content.tgstatic.co.nz/photos/good/2014-nissan-navara-21322395_17079978.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c3f6a1979c64e376c24e"
+  },
+  "body": "Pickup Truck",
+  "make": "Ford",
+  "model": "Ranger",
+  "color": "White",
+  "year": 2011,
+  "price": 18790,
+  "image": "https://content.tgstatic.co.nz/photos/good/2011-ford-ranger-23776791_17109734.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c4250c2033a006ab4903"
+  },
+  "body": "Pickup Truck",
+  "make": "Ford ",
+  "model": "Ranger TD",
+  "color": "White",
+  "year": 2011,
+  "price": 18790,
+  "image": "https://content.tgstatic.co.nz/photos/good/2011-ford-ranger-23776789_17109717.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c4577b3bec9611d357cd"
+  },
+  "body": "Pickup Truck",
+  "make": "Isuzu",
+  "model": "D-Max",
+  "color": "White",
+  "year": 2013,
+  "price": 17990,
+  "image": "https://content.tgstatic.co.nz/photos/good/2013-isuzu-d-max-23777320_17143937.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c48b8ee94ab597457560"
+  },
+  "body": "Pick Truck",
+  "make": "Holden",
+  "model": "Colorado LT DC PU",
+  "color": "White",
+  "year": 2012,
+  "price": 13990,
+  "image": "https://content.tgstatic.co.nz/photos/good/2012-holden-colorado-23616512_17011840.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c4de9c911eced4b03caa"
+  },
+  "body": "Pickup ",
+  "make": "Ssangyong",
+  "model": "Actyon",
+  "color": "Red",
+  "year": 2014,
+  "price": 17395,
+  "image": "https://content.tgstatic.co.nz/photos/good/2014-ssangyong-actyon-sport-23789745_17179106.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c51154fca88017849085"
+  },
+  "body": "Pickup Truck",
+  "make": "Holden",
+  "model": "Colorado Z71",
+  "color": "Red",
+  "year": 2017,
+  "price": 35545,
+  "image": "https://content.tgstatic.co.nz/photos/good/2017-holden-colorado-23630366_17031388.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c546d7208741510c9e86"
+  },
+  "body": "Pickup Truck",
+  "make": "Holden",
+  "model": "Colorado Z71",
+  "color": "Red",
+  "year": 2020,
+  "price": 45490,
+  "image": "https://content.tgstatic.co.nz/photos/good/2020-holden-colorado-23588581_16847007.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c5796747707cbec29f0b"
+  },
+  "body": "Pickup Truck",
+  "make": "Holden",
+  "model": "Colorado LTZ",
+  "color": "Red",
+  "year": 2013,
+  "price": 21290,
+  "image": "https://content.tgstatic.co.nz/photos/good/2013-holden-colorado-23591478_16898105.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c5b2f3d4d763b7f03d15"
+  },
+  "body": "Pickup Truck",
+  "make": "Ford",
+  "model": "Ranger XLT",
+  "color": "Red",
+  "year": 2018,
+  "price": 33958,
+  "image": "https://content.tgstatic.co.nz/photos/good/2018-ford-ranger-23850734_17426384.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c5f7a44868f5008f6ec5"
+  },
+  "body": "Pickup Truck",
+  "make": "Toyota",
+  "model": "Hilux ",
+  "color": "Red",
+  "year": 2012,
+  "price": 19995,
+  "image": "https://content.tgstatic.co.nz/photos/good/2012-toyota-hilux-23906417_17559287.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c6abab18aaa395d7e0f6"
+  },
+  "body": "Truck",
+  "make": "Isuzu",
+  "model": "Elf",
+  "color": "White",
+  "year": 2010,
+  "price": 29995,
+  "image": "https://trademe.tmcdn.co.nz/photoserver/plus/2056394754.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c6d2b691cf28aab4bc0a"
+  },
+  "body": "Truck",
+  "make": "Mazda",
+  "model": "Titan",
+  "color": "White",
+  "year": 1993,
+  "price": 6000,
+  "image": "https://trademe.tmcdn.co.nz/photoserver/plus/2067906096.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c6f7348517eac9d56bcc"
+  },
+  "body": "Truck",
+  "make": "UD",
+  "model": "Condor",
+  "color": "White",
+  "year": 2008,
+  "price": 60000,
+  "image": "https://trademe.tmcdn.co.nz/photoserver/plus/2067766743.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c71d08ed45a93b87f790"
+  },
+  "body": "Truck",
+  "make": "Toyota",
+  "model": "Dyna",
+  "color": "White",
+  "year": 2017,
+  "price": 64900,
+  "image": "https://trademe.tmcdn.co.nz/photoserver/plus/2067729471.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c741d73ca0a9ba87fe01"
+  },
+  "body": "Truck",
+  "make": "Isuzu",
+  "model": "Elf",
+  "color": "White",
+  "year": 2018,
+  "price": 58900,
+  "image": "https://trademe.tmcdn.co.nz/photoserver/plus/2067727473.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7c7e7cbea4c12757dce54"
+  },
+  "body": "Truck",
+  "make": "Mitsubishi",
+  "model": "Fuso",
+  "color": "White",
+  "year": 2012,
+  "price": 14630,
+  "image": "https://trademe.tmcdn.co.nz/photoserver/plus/2067654132.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7caba8da00375555ceabf"
+  },
+  "body": "Truck",
+  "make": "Mack",
+  "model": "CH613",
+  "color": "Black",
+  "year": 1999,
+  "price": 38000,
+  "image": "https://trademe.tmcdn.co.nz/photoserver/plus/2057730809.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7cafb6dc74636e8f56930"
+  },
+  "body": "Truck",
+  "make": "Isuzu",
+  "model": "460",
+  "color": "Black",
+  "year": 2017,
+  "price": 285000,
+  "image": "https://trademe.tmcdn.co.nz/photoserver/plus/2067802998.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7cb41ded0026a5c208a8f"
+  },
+  "body": "Truck",
+  "make": "Hino",
+  "model": "GH",
+  "color": "Black",
+  "year": 2009,
+  "price": 195000,
+  "image": "https://trademe.tmcdn.co.nz/photoserver/plus/2067905806.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7cb92e03fbdf019537790"
+  },
+  "body": "Truck",
+  "make": "Hino",
+  "model": "FS",
+  "color": "Black",
+  "year": 2003,
+  "price": 62500,
+  "image": "https://trademe.tmcdn.co.nz/photoserver/plus/2009231566.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7cbf27b26cbb55b7bf205"
+  },
+  "body": "Truck",
+  "make": "Hino",
+  "model": "5 Axle",
+  "color": "Black",
+  "year": 1997,
+  "price": 148000,
+  "image": "https://trademe.tmcdn.co.nz/photoserver/plus/2000363762.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f7cc185d944782ff919886"
+  },
+  "body": "Truck",
+  "make": "Fuso",
+  "model": "Fighter",
+  "color": "Black",
+  "year": 2007,
+  "price": 50000,
+  "image": "https://trademe.tmcdn.co.nz/photoserver/plus/2004426115.jpg",
+  "__v": 0
+}]
