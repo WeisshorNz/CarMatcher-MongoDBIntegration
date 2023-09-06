@@ -90,7 +90,7 @@ app.post("/api", async (req, res) => {
   }
 });
 
-mongoose.connect("mongodb://localhost:27017/carcli", {
+mongoose.connect("mongodb://localhost:27017/luis_cli", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
