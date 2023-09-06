@@ -49,7 +49,7 @@ Kelsie Smith - [![GitHub - Kelsie Smith][Github.logo]][kelsie-github-url]
 
 ## About The Project
 
-<img src="./frontend/src/images/pageImg.png" alt="Logo" width="1000" height="900">
+<img src="./frontend/src/images/pageImg.png" alt="Logo" width="800" height="800">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
