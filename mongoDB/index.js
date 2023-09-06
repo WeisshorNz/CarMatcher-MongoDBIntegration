@@ -5,7 +5,7 @@ import Car from "./models/car.js";
 mongoose.Promise = global.Promise;
 
 // Connect to db
-const db = mongoose.connect("mongodb://localhost:27017/carcli", {
+const db = mongoose.connect("mongodb://localhost:27017/luis_cli", {
   useNewUrlParser: true, // Use the new URL parser
   useUnifiedTopology: true, // Use the new Server Discover and Monitoring engine
 });
