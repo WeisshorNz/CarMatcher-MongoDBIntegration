@@ -7,7 +7,7 @@ Turner's Red: #B12137*/
 }
 .hero-container {
   background-image: url("../images/blueCar.png");
-  height: 50vh;
+  height: 60vh;
   width: 100%;
   background-position: bottom;
   background-size: cover;
@@ -17,14 +17,19 @@ Turner's Red: #B12137*/
 }
 .input-container {
   background-color: #1a75bbf2;
-  height: 27vh;
-  width: 25vw;
+  height: auto;
+  width: 35vw;
   margin: auto;
   border-radius: 1rem;
   padding-top: 1.75rem;
   margin-top: 3.75rem;
   color: white;
   border: white solid 0.5px;
+}
+.uploaded-image {
+  width: 20rem;
+  height: auto;
+  margin-top: 1rem;
 }
 .heading-container {
   display: flex;
@@ -49,6 +54,7 @@ button {
   font-weight: 600;
   cursor: pointer;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 h1 {

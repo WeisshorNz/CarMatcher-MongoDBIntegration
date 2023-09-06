@@ -1,8 +1,8 @@
-const express = require("express");
-const cors = require("cors");
-const axios = require("axios");
-const dotenv = require("dotenv");
-const mongoose = require("mongoose");
+import express from "express";
+import cors from "cors";
+import axios from "axios";
+import dotenv from "dotenv";
+import mongoose from "mongoose";
 
 dotenv.config();
 
@@ -31,7 +31,7 @@ app.post("/api", async (req, res) => {
 
     const predictions = response.data.predictions;
 
-    let categorizedPredictions = {
+    let categorisedPredictions = {
       carType: [],
       color: [],
     };
@@ -40,18 +40,18 @@ app.post("/api", async (req, res) => {
       const predictionText = prediction.tagName.toLowerCase();
 
       if (carTypeKeywords.includes(predictionText)) {
-        categorizedPredictions.carType.push(predictionText);
+        categorisedPredictions.carType.push(predictionText);
       } else if (colorKeywords.includes(predictionText)) {
-        categorizedPredictions.color.push(predictionText);
+        categorisedPredictions.color.push(predictionText);
       }
     }
 
     const highestCarType = getHighestProbability(
-      categorizedPredictions.carType,
+      categorisedPredictions.carType,
       predictions
     );
     const highestColor = getHighestProbability(
-      categorizedPredictions.color,
+      categorisedPredictions.color,
       predictions
     );
 
@@ -71,24 +71,17 @@ app.post("/api", async (req, res) => {
         }
       }
 
-      return capitalizeFirstLetter(highestPrediction);
+      return capitaliseFirstLetter(highestPrediction);
     }
 
-    function capitalizeFirstLetter(str) {
+    function capitaliseFirstLetter(str) {
       return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
     }
 
-    //  categorizedPredictions = {
-    //    carType: capitalizeFirstLetter(highestCarType),
-    //    color: capitalizeFirstLetter(highestColor),
-    //  };
-
     res.json({
-      carType: capitalizeFirstLetter(highestCarType),
-      carColor: capitalizeFirstLetter(highestColor),
+      carType: capitaliseFirstLetter(highestCarType),
+      carColor: capitaliseFirstLetter(highestColor),
     });
-
-    
   } catch (error) {
     console.error("Error making the prediction:", error);
     res
@@ -96,13 +89,12 @@ app.post("/api", async (req, res) => {
       .json({ error: "An error occurred while making the prediction." });
   }
 });
-// Connect to the MongoDB database
-mongoose.connect("mongodb://localhost:27017/luis_cli", {
+
+mongoose.connect("mongodb://localhost:27017/carcli", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
 
-// Define a schema for the 'cars' collection
 const carSchema = new mongoose.Schema({
   body: String,
   color: String,
@@ -113,30 +105,25 @@ const carSchema = new mongoose.Schema({
   year: Number,
 });
 
-// Create a model based on the schema
-const Car = mongoose.model('Car', carSchema);
+const Car = mongoose.model("Car", carSchema);
 
-
-const categorizedPredictions = {
-  "carType": "Truck",
-  "carColor": "Black"
-};
-
-// Define a route to fetch data based on categorizedPredictions
-app.get('/api/cars', async (req, res) => {
+app.get("/api/cars", async (req, res) => {
   try {
-    // Use Mongoose to query the 'cars' collection based on categorizedPredictions
+    const carType = req.query.carType;
+    const carColor = req.query.carColor;
+
     const cars = await Car.find({
-      body: categorizedPredictions.carType,
-      color: categorizedPredictions.carColor,
+      body: carType,
+      color: carColor,
     });
 
     res.json(cars);
   } catch (error) {
-    res.status(500).json({ error: 'An error occurred while fetching data from the database.' });
+    res.status(500).json({
+      error: "An error occurred while fetching data from the database.",
+    });
   }
 });
-
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}, yeah boy!`);
