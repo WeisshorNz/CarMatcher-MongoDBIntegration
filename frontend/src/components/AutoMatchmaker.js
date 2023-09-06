@@ -2,19 +2,15 @@ import React, { useState } from "react";
 import axios from "axios";
 import "../styling/autoMatchmaker.css";
 import tHeart from "../images/tHeart.png";
-import carData from "../data/carData.json";
 import { FaRegHeart } from "react-icons/fa";
 
 function AutoMatchmaker() {
-  const [selectedImage, setSelectedImage] = useState(null);
+  // const [selectedImage, setSelectedImage] = useState(null);
   const [recognitionResult, setRecognitionResult] = useState("");
   const [matchingCars, setMatchingCars] = useState([]);
+  const [uploadedImage, setUploadedImage] = useState(null);
 
-  // const apiUrl = "http://localhost:4000/api";
-  const apiUrl = "https://m3-prediction-api.azurewebsites.net/api";
-  const headers = {
-    "Content-Type": "image/jpeg",
-  };
+  const apiUrl = "http://localhost:4000/api/analyse-image";
 
   const handleImageUpload = async (event) => {
     const file = event.target.files[0];
@@ -28,42 +24,40 @@ function AutoMatchmaker() {
       reader.readAsArrayBuffer(file);
       reader.onload = async () => {
         try {
-          const response = await axios.post(apiUrl, reader.result, { headers });
+          const response = await axios.post(apiUrl, reader.result);
 
-          const result = response.data;
+          const { carType, carColor } = response.data;
 
-          if (result && result.length >= 2) {
-            const firstElement = result[0];
-            const secondElement = result[1];
-
-            const firstTagName = firstElement.tagName; // CarType
-            const secondTagName = secondElement.tagName; // Colour
-
-            const matchingCars = carData.filter(
-              (car) =>
-                car.carType.toLowerCase() === firstTagName.toLowerCase() &&
-                car.color.toLowerCase() === secondTagName.toLowerCase()
-            );
-
-            setMatchingCars(matchingCars);
-
-            setRecognitionResult(
-              `Sounds like your type is ${firstTagName} & ${secondTagName}! 😉
+          setRecognitionResult(
+            `Sounds like your type is ${carType} & ${carColor}! 😉
             Here's a few suitors that just may work:`
-            );
-          } else {
-            console.error("Insufficient data in the response.");
-            setRecognitionResult(
-              "No matches available 🥺 Maybe it's time to find a bike?"
-            );
-            setMatchingCars([]);
-          }
+          );
+
+          searchMatchingCars(carType, carColor);
+
+          setUploadedImage(URL.createObjectURL(file));
         } catch (error) {
           console.error("Error uploading and recognising the image:", error);
         }
       };
     } catch (error) {
       console.error("Error uploading and recognising the image:", error);
+    }
+  };
+
+  const searchMatchingCars = async (carType, carColor) => {
+    try {
+      const response = await axios.post(
+        "http://localhost:4000/api/search-cars",
+        {
+          carType,
+          carColor,
+        }
+      );
+
+      setMatchingCars(response.data);
+    } catch (error) {
+      console.error("Error searching for cars:", error);
     }
   };
 
@@ -96,13 +90,12 @@ function AutoMatchmaker() {
       <div className="result-container">
         <h2>Auto-Matchmaking Result:</h2>
         <div className="result-image">
-          {selectedImage && (
-            <img src={URL.createObjectURL(selectedImage)} alt="Selected" />
-          )}
+          {uploadedImage && <img src={uploadedImage} alt="Uploaded" />}
         </div>
         <p>{recognitionResult}</p>
         <h3>Matching Car Options:</h3>
         <div className="matching-cars">
+          {/* Display the matching cars */}
           {matchingCars.map((car, index) => (
             <div className="car-card" key={index}>
               <img
