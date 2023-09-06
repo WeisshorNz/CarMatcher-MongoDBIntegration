@@ -1,7 +1,8 @@
-const express = require("express");
-const cors = require("cors");
-const axios = require("axios");
-const dotenv = require("dotenv");
+import express from "express";
+import cors from "cors";
+import axios from "axios";
+import dotenv from "dotenv";
+import mongoose from "mongoose";
 
 dotenv.config();
 
@@ -23,25 +24,104 @@ app.post("/api", async (req, res) => {
       "Content-Type": contentType,
     };
 
-    const response = await axios.post(apiAddress,imageBinary,{ headers });
+    const response = await axios.post(apiAddress, imageBinary, { headers });
 
-    // res.json(response.data);
+    const carTypeKeywords = ["sedan", "suv", "hatchback", "pickup", "truck"];
+    const colorKeywords = ["black", "blue", "grey", "white", "red"];
 
-           //filter to only capture high probabilty json data received only. 
-    const highProbabilityPredictions = [];
-    for (const prediction of response.data.predictions) {
-      if (prediction.probability >= 0.6) {
-        highProbabilityPredictions.push(prediction);
+    const predictions = response.data.predictions;
+
+    let categorisedPredictions = {
+      carType: [],
+      color: [],
+    };
+
+    for (const prediction of predictions) {
+      const predictionText = prediction.tagName.toLowerCase();
+
+      if (carTypeKeywords.includes(predictionText)) {
+        categorisedPredictions.carType.push(predictionText);
+      } else if (colorKeywords.includes(predictionText)) {
+        categorisedPredictions.color.push(predictionText);
       }
     }
 
-    res.json(highProbabilityPredictions);
+    const highestCarType = getHighestProbability(
+      categorisedPredictions.carType,
+      predictions
+    );
+    const highestColor = getHighestProbability(
+      categorisedPredictions.color,
+      predictions
+    );
 
+    function getHighestProbability(category, predictions) {
+      let highestProbability = -1;
+      let highestPrediction = "";
+
+      for (const prediction of predictions) {
+        const predictionText = prediction.tagName.toLowerCase();
+
+        if (
+          category.includes(predictionText) &&
+          prediction.probability > highestProbability
+        ) {
+          highestProbability = prediction.probability;
+          highestPrediction = predictionText;
+        }
+      }
+
+      return capitaliseFirstLetter(highestPrediction);
+    }
+
+    function capitaliseFirstLetter(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+    }
+
+    res.json({
+      carType: capitaliseFirstLetter(highestCarType),
+      carColor: capitaliseFirstLetter(highestColor),
+    });
   } catch (error) {
     console.error("Error making the prediction:", error);
     res
       .status(500)
       .json({ error: "An error occurred while making the prediction." });
+  }
+});
+
+mongoose.connect("mongodb://localhost:27017/carcli", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+
+const carSchema = new mongoose.Schema({
+  body: String,
+  color: String,
+  image: String,
+  make: String,
+  model: String,
+  price: Number,
+  year: Number,
+});
+
+const Car = mongoose.model("Car", carSchema);
+
+app.get("/api/cars", async (req, res) => {
+  try {
+    const carType = req.query.carType;
+    const carColor = req.query.carColor;
+
+    const cars = await Car.find({
+      body: carType,
+      color: carColor,
+    });
+
+    res.json(cars);
+  } catch (error) {
+    res.status(500).json({
+      error: "An error occurred while fetching data from the database.",
+    });
   }
 });
 

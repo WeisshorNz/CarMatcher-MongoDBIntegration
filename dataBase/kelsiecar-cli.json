@@ -1,0 +1,782 @@
+[
+  {
+    "_id": {
+      "$oid": "64f7c9cdeff18de8c7d3d514"
+    },
+    "body": "Sedan",
+    "make": "Volkswagen",
+    "model": "Passat TDI",
+    "color": "Black",
+    "year": 2015,
+    "price": 14390,
+    "image": "https://content.tgstatic.co.nz/photos/good/2015-volkswagen-passat-23638197_17036322.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cab0a2e40a76a5d6fa6a"
+    },
+    "body": "Sedan",
+    "make": "Toyota",
+    "model": "Camry Hybrid",
+    "color": "Black",
+    "year": 2012,
+    "price": 19700,
+    "image": "https://content.tgstatic.co.nz/photos/good/2012-toyota-camry-23590507_17099894.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cacd504c62583d8a3c41"
+    },
+    "body": "Sedan",
+    "make": "Audi",
+    "model": "S5",
+    "color": "Black",
+    "year": 2008,
+    "price": 18695,
+    "image": "https://content.tgstatic.co.nz/photos/good/2008-audi-s5-23801050_17205477.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7caf056a4b5ba9f47b68f"
+    },
+    "body": "Sedan",
+    "make": "BMW",
+    "model": "320I",
+    "color": "Black",
+    "year": 2015,
+    "price": 17890,
+    "image": "https://content.tgstatic.co.nz/photos/good/2015-bmw-320i-23615759_16997938.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cb0bba1a4490b0eec8d1"
+    },
+    "body": "Sedan",
+    "make": "Audi",
+    "model": "A4",
+    "color": "Black",
+    "year": 2014,
+    "price": 12285,
+    "image": "https://content.tgstatic.co.nz/photos/good/2014-audi-a4-23770876_17105505.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cb28f78104901c04e045"
+    },
+    "body": "Sedan",
+    "make": "Holden",
+    "model": "Cruze",
+    "color": "Black",
+    "year": 2011,
+    "price": 10215,
+    "image": "https://content.tgstatic.co.nz/photos/good/2011-holden-cruze-23603021_17112501.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cb5f40576cd8e60df7c3"
+    },
+    "body": "Sedan",
+    "make": "Ford",
+    "model": "Falcon",
+    "color": "Blue",
+    "year": 2003,
+    "price": 17090,
+    "image": "https://content.tgstatic.co.nz/photos/good/2003-ford-falcon-23575583_16860351.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cb76aca62e65733cb4a3"
+    },
+    "body": "Sedan",
+    "make": "Lexus",
+    "model": "IS250",
+    "color": "Blue",
+    "year": 2013,
+    "price": 17190,
+    "image": "https://content.tgstatic.co.nz/photos/good/2013-lexus-is250-23805662_17224986.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cb9945e8d08ba8153aff"
+    },
+    "body": "Sedan",
+    "make": "Honda",
+    "model": "Accord",
+    "color": "Blue",
+    "year": 2004,
+    "price": 4690,
+    "image": "https://content.tgstatic.co.nz/photos/good/2004-honda-accord-23798088_17232501.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cbb926e1bd71b6b50e15"
+    },
+    "body": "Sedan",
+    "make": "Holden",
+    "model": "Commodore",
+    "color": "Blue",
+    "year": 2009,
+    "price": 22390,
+    "image": "https://content.tgstatic.co.nz/photos/good/2009-holden-commodore-23559068_16810822.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cbe148b72b33969a4fac"
+    },
+    "body": "Sedan",
+    "make": "Holden",
+    "model": "Commodore",
+    "color": "Blue",
+    "year": 2012,
+    "price": 13295,
+    "image": "https://content.tgstatic.co.nz/photos/good/2012-holden-commodore-23813070_17269163.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cbf6d7c15f770fe18c85"
+    },
+    "body": "Sedan",
+    "make": "Holden",
+    "model": "Cruze",
+    "color": "Blue",
+    "year": 2016,
+    "price": 10990,
+    "image": "https://content.tgstatic.co.nz/photos/good/2016-holden-cruze-23918413_17548441.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cc67361a44c4b866a75c"
+    },
+    "body": "Sedan",
+    "make": "Mercedes-Benz",
+    "model": "C180",
+    "color": "Grey",
+    "year": 2013,
+    "price": 12688,
+    "image": "https://content.tgstatic.co.nz/photos/good/2013-mercedes-benz-c180-23769221_17142300.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cc7d51323393e44de3af"
+    },
+    "body": "Sedan",
+    "make": "Toyota",
+    "model": "Corolla",
+    "color": "Grey",
+    "year": 2018,
+    "price": 15390,
+    "image": "https://content.tgstatic.co.nz/photos/good/2018-toyota-corolla-23776048_17199453.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cc95158bef318d9ccbf6"
+    },
+    "body": "Sedan",
+    "make": "Skoda",
+    "model": "Superb",
+    "color": "Grey",
+    "year": 2016,
+    "price": 21458,
+    "image": "https://content.tgstatic.co.nz/photos/good/2016-skoda-superb-22850453_17210825.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cca88b48883b3f35a484"
+    },
+    "body": "Sedan",
+    "make": "Mazda",
+    "model": "Axela",
+    "color": "Grey",
+    "year": 2012,
+    "price": 10990,
+    "image": "https://content.tgstatic.co.nz/photos/good/2012-mazda-axela-23814165_17279563.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7ccc6996621f62c46259e"
+    },
+    "body": "Sedan",
+    "make": "Hodlen",
+    "model": "Commodore",
+    "color": "Grey",
+    "year": 2015,
+    "price": 16990,
+    "image": "https://content.tgstatic.co.nz/photos/good/2015-holden-commodore-23905776_17537483.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7ccdd5199b0a273540475"
+    },
+    "body": "Sedan",
+    "make": "Mazda",
+    "model": "Axela",
+    "color": "Grey",
+    "year": 2013,
+    "price": 23450,
+    "image": "https://content.tgstatic.co.nz/photos/good/2013-mazda-axela-23517940_17224749.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cd3b4168c384499c668c"
+    },
+    "body": "Sedan",
+    "make": "Toyota",
+    "model": "Camry",
+    "color": "White",
+    "year": 2011,
+    "price": 16700,
+    "image": "https://content.tgstatic.co.nz/photos/good/2011-toyota-camry-23590511_17099153.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cd51bc40d34d45874d31"
+    },
+    "body": "Sedan",
+    "make": "Holden",
+    "model": "Commodore",
+    "color": "White",
+    "year": 2016,
+    "price": 18095,
+    "image": "https://content.tgstatic.co.nz/photos/good/2016-holden-commodore-22773701_15574331.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cd91729dc5cf1c4e7e86"
+    },
+    "body": "Sedan",
+    "make": "Honda",
+    "model": "Civic",
+    "color": "White",
+    "year": 2017,
+    "price": 19535,
+    "image": "https://content.tgstatic.co.nz/photos/good/2017-honda-civic-23790112_17209580.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cda5538d3049e13d4fe2"
+    },
+    "body": "Sedan",
+    "make": "Toyota",
+    "model": "Corolla",
+    "color": "White",
+    "year": 2014,
+    "price": 14700,
+    "image": "https://content.tgstatic.co.nz/photos/good/2014-toyota-corolla-23534463_16959471.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cdb9df1b98258b8f7d37"
+    },
+    "body": "Sedan",
+    "make": "Toyota",
+    "model": "SAI",
+    "color": "White",
+    "year": 2014,
+    "price": 16885,
+    "image": "https://content.tgstatic.co.nz/photos/good/2014-toyota-sai-23303636_17152537.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7cdce5760f3ed35d4e9e9"
+    },
+    "body": "Sedan",
+    "make": "Mazda",
+    "model": "Axela",
+    "color": "White",
+    "year": 2014,
+    "price": 20010,
+    "image": "https://content.tgstatic.co.nz/photos/good/2014-mazda-axela-23442544_16694356.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f7ce256e11d1d210e98da5"
+    },
+    "body": "Sedan",
+    "make": "Mazda",
+    "model": "Axela",
+    "color": "Red",
+    "year": 2014,
+    "price": 16990,
+    "image": "https://content.tgstatic.co.nz/photos/good/2014-mazda-axela-23633209_17242908.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f8014474218103a278d7ce"
+    },
+    "body": "Sedan",
+    "make": "Mazda",
+    "model": "6",
+    "color": "Red",
+    "year": 2016,
+    "price": 13990,
+    "image": "https://content.tgstatic.co.nz/photos/good/2016-mazda-mazda6-23888951_17538038.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f80160500132f4be361a12"
+    },
+    "body": "Sedan",
+    "make": "Mitsubishi",
+    "model": "Lancer",
+    "color": "Red",
+    "year": 2014,
+    "price": 11990,
+    "image": "https://content.tgstatic.co.nz/photos/good/2014-mitsubishi-lancer-23883668_17448621.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f8017e40a47165bfcd4bc3"
+    },
+    "body": "Sedan",
+    "make": "Toyota",
+    "model": "Camry",
+    "color": "Red",
+    "year": 2012,
+    "price": 10190,
+    "image": "https://content.tgstatic.co.nz/photos/good/2012-toyota-camry-23617834_16971919.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f801977020ffee10207579"
+    },
+    "body": "Sedan",
+    "make": "Toyota",
+    "model": "Camry",
+    "color": "Red",
+    "year": 2017,
+    "price": 24480,
+    "image": "https://content.tgstatic.co.nz/photos/good/2017-toyota-camry-23433735_16813552.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f801caa6193b44fd1f0359"
+    },
+    "body": "Sedan",
+    "make": "Holden",
+    "model": "Commodore",
+    "color": "Red",
+    "year": 2015,
+    "price": 25990,
+    "image": "https://content.tgstatic.co.nz/photos/good/2015-holden-commodore-23858725_17366304.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f80280915c0c71001ae9c4"
+    },
+    "body": "SUV",
+    "make": "Hyundai",
+    "model": "Ix35",
+    "color": "Black",
+    "year": 2013,
+    "price": 13799,
+    "image": "https://content.tgstatic.co.nz/photos/good/2013-hyundai-ix35-23770443_17079325.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f8029c899781a493d68e50"
+    },
+    "body": "SUV",
+    "make": "Hyundai",
+    "model": "Santa Fe",
+    "color": "Black",
+    "year": 2014,
+    "price": 18987,
+    "image": "https://content.tgstatic.co.nz/photos/good/2014-hyundai-santa-fe-23638372_17123226.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f802b2e672e96809641b00"
+    },
+    "body": "SUV",
+    "make": "Volkswagon",
+    "model": "Tiguan",
+    "color": "Black",
+    "year": 2013,
+    "price": 12890,
+    "image": "https://content.tgstatic.co.nz/photos/good/2013-volkswagen-tiguan-23544501_16852854.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f802caf567e168de0f239d"
+    },
+    "body": "SUV",
+    "make": "Mitsubishi",
+    "model": "Outlander",
+    "color": "Black",
+    "year": 2020,
+    "price": 31060,
+    "image": "https://content.tgstatic.co.nz/photos/good/2020-mitsubishi-outlander-22831344_17360184.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f802edd3fc8495b09f6af7"
+    },
+    "body": "SUV",
+    "make": "Hyundai",
+    "model": "Tucson",
+    "color": "Black",
+    "year": 2017,
+    "price": 27485,
+    "image": "https://content.tgstatic.co.nz/photos/good/2017-hyundai-tucson-23793620_17196483.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f80300abea419c8863a916"
+    },
+    "body": "SUV",
+    "make": "Mazda",
+    "model": "CX-9",
+    "color": "Black",
+    "year": 2017,
+    "price": 31090,
+    "image": "https://content.tgstatic.co.nz/photos/good/2017-mazda-cx-9-23785903_17142303.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f80334cef40c0d752a3338"
+    },
+    "body": "SUV",
+    "make": "KIA",
+    "model": "Niro",
+    "color": "Blue",
+    "year": 2018,
+    "price": 19390,
+    "image": "https://content.tgstatic.co.nz/photos/good/2018-kia-niro-23801963_17177822.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f80347f890fb1101f18812"
+    },
+    "body": "SUV",
+    "make": "Subaru",
+    "model": "Outback",
+    "color": "Blue",
+    "year": 2016,
+    "price": 19400,
+    "image": "https://content.tgstatic.co.nz/photos/good/2016-subaru-outback-23",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f803a276424d04edf09713"
+    },
+    "body": "SUV",
+    "make": "Mazda",
+    "model": "CX-3",
+    "color": "Blue",
+    "year": 2017,
+    "price": 24695,
+    "image": "https://content.tgstatic.co.nz/photos/good/2017-mazda-cx-3-23775340_17229159.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f803b6ea6fb12759fefa71"
+    },
+    "body": "SUV",
+    "make": "Toyota",
+    "model": "Rav4",
+    "color": "Blue",
+    "year": 2019,
+    "price": 34990,
+    "image": "https://content.tgstatic.co.nz/photos/good/2019-toyota-rav4-22959704_17151227.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f803cbaa175d9e9cd8583b"
+    },
+    "body": "SUV",
+    "make": "Toyota",
+    "model": "Landcruiser",
+    "color": "Blue",
+    "year": 2007,
+    "price": 20690,
+    "image": "https://content.tgstatic.co.nz/photos/good/2007-toyota-landcruiser-23618532_17073189.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f803df3508cc63fdc1622d"
+    },
+    "body": "SUV",
+    "make": "Toyota",
+    "model": "Rav4",
+    "color": "Blue",
+    "year": 2019,
+    "price": 35490,
+    "image": "https://content.tgstatic.co.nz/photos/good/2019-toyota-rav4-22959727_17140417.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f80419172df4393c0882bb"
+    },
+    "body": "SUV",
+    "make": "Ford",
+    "model": "Kuga",
+    "color": "Grey",
+    "year": 2014,
+    "price": 16095,
+    "image": "https://content.tgstatic.co.nz/photos/good/2014-ford-kuga-23782430_17138602.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f8042f726dea8c7d10f849"
+    },
+    "body": "SUV",
+    "make": "Hyundai",
+    "model": "Ix35",
+    "color": "Grey",
+    "year": 2014,
+    "price": 17930,
+    "image": "https://content.tgstatic.co.nz/photos/good/2014-hyundai-ix35-23770600_17078551.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f8044fcb7206d6ecec1157"
+    },
+    "body": "SUV",
+    "make": "KIA",
+    "model": "Sorento",
+    "color": "Grey",
+    "year": 2016,
+    "price": 16685,
+    "image": "https://content.tgstatic.co.nz/photos/good/2016-kia-sorento-23623203_17182593.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f804636c8fbd5506223b11"
+    },
+    "body": "SUV",
+    "make": "Nissan",
+    "model": "Qashqai",
+    "color": "Grey",
+    "year": 2014,
+    "price": 15590,
+    "image": "https://content.tgstatic.co.nz/photos/good/2014-nissan-qashqai-23783322_17142982.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f80491bc239320600091b1"
+    },
+    "body": "SUV",
+    "make": "Ford",
+    "model": "Territory",
+    "color": "Grey",
+    "year": 2014,
+    "price": 9690,
+    "image": "https://content.tgstatic.co.nz/photos/good/2014-ford-territory-23643537_17023968.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f804a4337f1d62aa6328ee"
+    },
+    "body": "SUV",
+    "make": "Holden",
+    "model": "Captiva",
+    "color": "Grey",
+    "year": 2012,
+    "price": 7890,
+    "image": "https://content.tgstatic.co.nz/photos/good/2012-holden-captiva-5-23622950_16993333.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f804dc910088760fa629f6"
+    },
+    "body": "SUV",
+    "make": "Volkswagen",
+    "model": "Touareg",
+    "color": "White",
+    "year": 2008,
+    "price": 11090,
+    "image": "https://content.tgstatic.co.nz/photos/good/2008-volkswagen-touareg-23784372_17127390.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f804f508046c938f7bd529"
+    },
+    "body": "SUV",
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "color": "White",
+    "year": 2014,
+    "price": 14290,
+    "image": "https://content.tgstatic.co.nz/photos/good/2014-volkswagen-tiguan-23584937_17071711.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f8050b60f9d4c5c998f10a"
+    },
+    "body": "SUV",
+    "make": "KIA",
+    "model": "Sorento",
+    "color": "White",
+    "year": 2012,
+    "price": 19600,
+    "image": "https://content.tgstatic.co.nz/photos/good/2012-kia-sorento-23839126_17446612.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f805217135e2f99ddf2e0e"
+    },
+    "body": "SUV",
+    "make": "Hyundai",
+    "model": "Santa Fe",
+    "color": "White",
+    "year": 2013,
+    "price": 19090,
+    "image": "https://content.tgstatic.co.nz/photos/good/2013-hyundai-santa-fe-21373597_17149078.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f8053a35b5af285ae9e802"
+    },
+    "body": "SUV",
+    "make": "Hyundai",
+    "model": "Ix35",
+    "color": "White",
+    "year": 2014,
+    "price": 16390,
+    "image": "https://content.tgstatic.co.nz/photos/good/2014-hyundai-ix35-23798438_17182396.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f805520a1fa459ec42139f"
+    },
+    "body": "SUV",
+    "make": "Mazda",
+    "model": "CX-5",
+    "color": "White",
+    "year": 2019,
+    "price": 33560,
+    "image": "https://content.tgstatic.co.nz/photos/good/2019-mazda-cx-5-21236430_17299250.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f805864c1397c22166515b"
+    },
+    "body": "SUV",
+    "make": "Nissan",
+    "model": "X-Trail",
+    "color": "Red",
+    "year": 2016,
+    "price": 17885,
+    "image": "https://content.tgstatic.co.nz/photos/good/2016-nissan-x-trail-23773186_17212608.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f80598c3a1bac7acd28fe8"
+    },
+    "body": "SUV",
+    "make": "Toyota",
+    "model": "Rav4",
+    "color": "Red",
+    "year": 2015,
+    "price": 12590,
+    "image": "https://content.tgstatic.co.nz/photos/good/2015-toyota-rav4-23783966_17161074.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f805b590665ca704f15c46"
+    },
+    "body": "SUV",
+    "make": "Mazda",
+    "model": "CX-3",
+    "color": "Red",
+    "year": 2015,
+    "price": 19390,
+    "image": "https://content.tgstatic.co.nz/photos/good/2015-mazda-cx-3-23806912_17202436.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f805ca8632e0ac2416e81a"
+    },
+    "body": "SUV",
+    "make": "Mitsubishi",
+    "model": "Outlander",
+    "color": "Red",
+    "year": 2019,
+    "price": 37490,
+    "image": "https://content.tgstatic.co.nz/photos/good/2019-mitsubishi-outlander-23580945_17045156.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f805dc4dcc97a51f02e9e2"
+    },
+    "body": "SUV",
+    "make": "Toyota",
+    "model": "Rav4",
+    "color": "Red",
+    "year": 2019,
+    "price": 36060,
+    "image": "https://content.tgstatic.co.nz/photos/good/2019-toyota-rav4-22954590_17331839.jpg",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "64f805f1fe44ad1693e8c13c"
+    },
+    "body": "SUV",
+    "make": "Mazda",
+    "model": "CX-9",
+    "color": "Red",
+    "year": 2013,
+    "price": 25095,
+    "image": "https://content.tgstatic.co.nz/photos/good/2013-mazda-cx-9-23783899_17143006.jpg",
+    "__v": 0
+  }
+]
