@@ -41,7 +41,7 @@ function AutoMatchmaker() {
           setCarType(carType);
           setCarColor(carColor);
 
-          setUploadedImage(URL.createObjectURL(file)); // Set uploaded image URL
+          setUploadedImage(URL.createObjectURL(file));
         } catch (error) {
           console.error("Error uploading and recognizing the image:", error);
         }
@@ -66,7 +66,6 @@ function AutoMatchmaker() {
     }
   };
 
-  // Move the searchMatchingCars function call here to ensure it's called with the updated carType and carColor
   React.useEffect(() => {
     if (carType && carColor) {
       searchMatchingCars();

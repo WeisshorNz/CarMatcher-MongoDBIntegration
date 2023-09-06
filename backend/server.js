@@ -78,11 +78,6 @@ app.post("/api", async (req, res) => {
       return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
     }
 
-    //  categorisedPredictions = {
-    //    carType: capitaliseFirstLetter(highestCarType),
-    //    color: capitaliseFirstLetter(highestColor),
-    //  };
-
     res.json({
       carType: capitaliseFirstLetter(highestCarType),
       carColor: capitaliseFirstLetter(highestColor),
@@ -94,13 +89,12 @@ app.post("/api", async (req, res) => {
       .json({ error: "An error occurred while making the prediction." });
   }
 });
-// Connect to the MongoDB database
+
 mongoose.connect("mongodb://localhost:27017/carcli", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
 
-// Define a schema for the 'cars' collection
 const carSchema = new mongoose.Schema({
   body: String,
   color: String,
@@ -112,11 +106,6 @@ const carSchema = new mongoose.Schema({
 });
 
 const Car = mongoose.model("Car", carSchema);
-
-// const categorisedPredictions = {
-//   carType: "Truck",
-//   carColor: "Black",
-// };
 
 app.get("/api/cars", async (req, res) => {
   try {
