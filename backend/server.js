@@ -3,36 +3,17 @@ import cors from "cors";
 import axios from "axios";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
-import Car from "../mongoDB/models/car.js";
 
 dotenv.config();
 
 const app = express();
-const port = 4000;
+const port = process.env.PORT || 3001;
 const apiAddress = process.env.API_ADDRESS;
 
 app.use(express.raw({ type: "image/jpeg", limit: "10mb" }));
+app.use(cors());
 
-const corsOptions = {
-  origin: "http://localhost:3000",
-  methods: "POST",
-};
-
-app.use(cors(corsOptions));
-
-mongoose.connect("mongodb://localhost:27017/carcli", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
-
-mongoose.connection.on("error", (err) => {
-  console.error("MongoDB connection error:", err);
-});
-
-const carTypeKeywords = ["sedan", "suv", "hatchback", "pickup", "truck"];
-const colorKeywords = ["black", "blue", "grey", "white", "red"];
-
-app.post("/api/analyse-image", async (req, res) => {
+app.post("/api", async (req, res) => {
   try {
     const imageBinary = req.body;
     const predictionKey = process.env.PREDICTION_KEY;
@@ -42,11 +23,15 @@ app.post("/api/analyse-image", async (req, res) => {
       "Prediction-Key": predictionKey,
       "Content-Type": contentType,
     };
+
     const response = await axios.post(apiAddress, imageBinary, { headers });
+
+    const carTypeKeywords = ["sedan", "suv", "hatchback", "pickup", "truck"];
+    const colorKeywords = ["black", "blue", "grey", "white", "red"];
 
     const predictions = response.data.predictions;
 
-    const categorizedPredictions = {
+    let categorisedPredictions = {
       carType: [],
       color: [],
     };
@@ -55,18 +40,18 @@ app.post("/api/analyse-image", async (req, res) => {
       const predictionText = prediction.tagName.toLowerCase();
 
       if (carTypeKeywords.includes(predictionText)) {
-        categorizedPredictions.carType.push(predictionText);
+        categorisedPredictions.carType.push(predictionText);
       } else if (colorKeywords.includes(predictionText)) {
-        categorizedPredictions.color.push(predictionText);
+        categorisedPredictions.color.push(predictionText);
       }
     }
 
     const highestCarType = getHighestProbability(
-      categorizedPredictions.carType,
+      categorisedPredictions.carType,
       predictions
     );
     const highestColor = getHighestProbability(
-      categorizedPredictions.color,
+      categorisedPredictions.color,
       predictions
     );
 
@@ -86,33 +71,68 @@ app.post("/api/analyse-image", async (req, res) => {
         }
       }
 
-      return highestPrediction;
+      return capitaliseFirstLetter(highestPrediction);
     }
 
-    res.json({ carType: highestCarType, carColor: highestColor });
+    function capitaliseFirstLetter(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+    }
+
+    //  categorisedPredictions = {
+    //    carType: capitaliseFirstLetter(highestCarType),
+    //    color: capitaliseFirstLetter(highestColor),
+    //  };
+
+    res.json({
+      carType: capitaliseFirstLetter(highestCarType),
+      carColor: capitaliseFirstLetter(highestColor),
+    });
   } catch (error) {
-    console.error("Error analysing the image:", error);
+    console.error("Error making the prediction:", error);
     res
       .status(500)
-      .json({ error: "An error occurred while analysing the image." });
+      .json({ error: "An error occurred while making the prediction." });
   }
 });
+// Connect to the MongoDB database
+mongoose.connect("mongodb://localhost:27017/carcli", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
-app.post("/api/search-cars", async (req, res) => {
+// Define a schema for the 'cars' collection
+const carSchema = new mongoose.Schema({
+  body: String,
+  color: String,
+  image: String,
+  make: String,
+  model: String,
+  price: Number,
+  year: Number,
+});
+
+const Car = mongoose.model("Car", carSchema);
+
+// const categorisedPredictions = {
+//   carType: "Truck",
+//   carColor: "Black",
+// };
+
+app.get("/api/cars", async (req, res) => {
   try {
-    const { carType, carColor } = req.body;
+    const carType = req.query.carType;
+    const carColor = req.query.carColor;
 
-    const matchingCars = await Car.find({
-      carType: carType,
+    const cars = await Car.find({
+      body: carType,
       color: carColor,
-    }).limit(6);
+    });
 
-    res.json(matchingCars);
+    res.json(cars);
   } catch (error) {
-    console.error("Error searching for cars:", error);
-    res
-      .status(500)
-      .json({ error: "An error occurred while searching for cars." });
+    res.status(500).json({
+      error: "An error occurred while fetching data from the database.",
+    });
   }
 });
 
