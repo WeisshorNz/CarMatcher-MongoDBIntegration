@@ -2,7 +2,7 @@
 
 <!-- PROJECT SHIELDS -->
 
-[![Contributors][contributors-shield]][contributors-url]
+[![Contributors][contributors-shield]][contributors-url] <br />
 Luis Rodríguez - [![GitHub - Luis Rodríguez][Github.logo]][luis-github-url]
 Kelsie Smith - [![GitHub - Kelsie Smith][Github.logo]][kelsie-github-url]
 
